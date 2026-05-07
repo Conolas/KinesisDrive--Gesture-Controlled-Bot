@@ -41,16 +41,16 @@ Differential Drive Motors
 
 * ESP32 DevKit V1
 * MPU6050 IMU
-* 18650 Li-ion Battery
+* 2x 18650 Li-ion Battery
 * Glove-mounted sensor assembly
 
 ## Robot Unit
 
 * ESP32 DevKit V1
 * 2x BTS7960 Motor Drivers
-* High torque DC motors
+* High torque 500rpm 12v DC Johnsons motors
 * Differential drive robotic chassis
-* Li-ion battery pack
+* 3s 80C Lipo battery pack
 
 ---
 
@@ -179,7 +179,7 @@ Recommended additions:
 
 # Author
 
-Jatin Hosmani
+Jatin Hosmani ( Conolas )
 
 * LinkedIn: [https://linkedin.com/in/jatin-hosmani](https://linkedin.com/in/jatin-hosmani)
 * GitHub: [https://github.com/Conolas](https://github.com/Conolas)

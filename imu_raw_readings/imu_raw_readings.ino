@@ -42,30 +42,28 @@ void loop() {
   int16_t gz = Wire.read() << 8 | Wire.read();
 
   // Print Raw Data
-  Serial.print("ACCEL -> ");
+ Serial.print("AccX:");
+Serial.print(ax);
+Serial.print(",");
 
-  Serial.print("X: ");
-  Serial.print(ax);
+Serial.print("AccY:");
+Serial.print(ay);
+Serial.print(",");
 
-  Serial.print(" Y: ");
-  Serial.print(ay);
+Serial.print("AccZ:");
+Serial.print(az);
+Serial.print(",");
 
-  Serial.print(" Z: ");
-  Serial.print(az);
+Serial.print("GyroX:");
+Serial.print(gx);
+Serial.print(",");
 
-  Serial.print(" | TEMP: ");
-  Serial.print(temp / 340.00 + 36.53);
+Serial.print("GyroY:");
+Serial.print(gy);
+Serial.print(",");
 
-  Serial.print(" | GYRO -> ");
-
-  Serial.print("X: ");
-  Serial.print(gx);
-
-  Serial.print(" Y: ");
-  Serial.print(gy);
-
-  Serial.print(" Z: ");
-  Serial.println(gz);
+Serial.print("GyroZ:");
+Serial.println(gz);
 
   delay(100);
 }
